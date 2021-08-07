@@ -1,10 +1,8 @@
-
-
-AuthUserFile {url du fichier}
+AuthUserFile {chemin d'accès au fichier de mots de passe}
 AuthGroupFile /dev/null
-AuthName "Accès protégé"
+AuthName {"Saisisez votre mots de passe"}
 AuthType Basic
-<LIMIT GET POST>
 
-Require valid-user
-</LIMIT>
+<Limit GET POST>
+require user nom d'utilisateur
+</Limit>
