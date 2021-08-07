@@ -1,8 +1,0 @@
-AuthUserFile {chemin d'accès au fichier de mots de passe}
-AuthGroupFile /dev/null
-AuthName {"Saisisez votre mots de passe"}
-AuthType Basic
-
-<Limit GET POST>
-require user nom d'utilisateur
-</Limit>
