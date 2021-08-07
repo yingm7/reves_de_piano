@@ -1,0 +1,10 @@
+
+
+AuthUserFile {url du fichier}
+AuthGroupFile /dev/null
+AuthName "Accès protégé"
+AuthType Basic
+<LIMIT GET POST>
+
+Require valid-user
+</LIMIT>
