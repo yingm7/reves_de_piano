@@ -1,6 +1,6 @@
 AuthUserFile {chemin d'accès au fichier de mots de passe}
 AuthGroupFile /dev/null
-AuthName {"titre pour la zone de dialogue"}
+AuthName {"Saisisez votre mots de passe"}
 AuthType Basic
 
 <Limit GET POST>
