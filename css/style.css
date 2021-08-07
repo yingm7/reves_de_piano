@@ -1,3 +1,29 @@
+
+.paddingtop {
+
+padding-top: 30px;
+
+}
+
+.paddingbottom {
+
+    padding-bottom: 30px;
+    
+    }
+
+    .paddingri {
+
+
+
+    }
+    .flexcent {
+display: flex;
+justify-content: center;
+
+
+    }
+
+
 .martopp {
 
     margin-top: 40px;
@@ -26,3 +52,10 @@
     width:100%;
     max-height: 200px !important;
   }
+.aligndr
+{
+display: flex;
+align-content: space-around;
+align-items: flex-end;
+
+}
